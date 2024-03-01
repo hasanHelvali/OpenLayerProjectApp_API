@@ -18,14 +18,15 @@ namespace BasarSoftProject1_API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> get()
+        public async Task<IActionResult> Get()
         {
             return Ok("Baglantı basarılıdır.");
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(LocationAndUser locationAndUser)
+        public async Task<IActionResult> CreateMap(LocationAndUser locationAndUser)
         {
+            await _repository.CreateAsync(locationAndUser);
             return Ok();
         }
 
@@ -84,3 +85,11 @@ namespace BasarSoftProject1_API.Controllers
         //}
     }
 }
+
+
+
+//coordinates: Array[3909874.7977859727, 4912728.608887487]
+//​
+//name: ""
+//​
+//type: "Point"

@@ -274,3 +274,4 @@ C:\Users\Hasan_Helvali\Desktop\BasarSoftProject1_API\obj\Debug\net8.0\ref\BasarS
 C:\Users\Hasan_Helvali\Desktop\BasarSoftProject1_API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
 C:\Users\Hasan_Helvali\Desktop\BasarSoftProject1_API\bin\Debug\net8.0\NetTopologySuite.IO.SqlServerBytes.dll
 C:\Users\Hasan_Helvali\Desktop\BasarSoftProject1_API\obj\Debug\net8.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\Hasan_Helvali\Desktop\BasarSoftProject1_API\obj\Debug\net8.0\BasarSoftProject1_API.sourcelink.json

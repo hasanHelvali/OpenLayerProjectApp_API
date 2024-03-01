@@ -15,7 +15,7 @@ namespace BasarSoftProject1_API.Context
         }
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
-        //    modelBuilder.Entity<LocationAndUser>(entity =>
+        //    modelBuilder.Entity<>(entity =>
         //    {
         //        entity.Property(e => e.Location).HasColumnType("geometry");
         //    });
