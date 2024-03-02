@@ -5,20 +5,13 @@ namespace BasarSoftProject1_API.Context
 {
     public class MapContext:DbContext
     {
-        public DbSet<Location> Locations{ get; set; }
-        public DbSet<User> Users{ get; set; }
+        public DbSet<LocAndUser> LocationsAndUsers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Data Source=HASANHELVALI;Initial Catalog=BasarSoftProject1DB;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False",
-                x=>x.UseNetTopologySuite());
+                x => x.UseNetTopologySuite());
         }
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<>(entity =>
-        //    {
-        //        entity.Property(e => e.Location).HasColumnType("geometry");
-        //    });
-        //}
     }
+
 }

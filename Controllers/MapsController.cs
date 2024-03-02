@@ -10,9 +10,11 @@ namespace BasarSoftProject1_API.Controllers
     [ApiController]
     public class MapsController : ControllerBase
     {
-        private readonly IRepository<LocationAndUser> _repository;
+        //private readonly IRepository<LocationAndUser> _repository;
+        private readonly IRepository<LocAndUser> _repository;
 
-        public MapsController(IRepository<LocationAndUser> repository)
+        //public MapsController(IRepository<LocationAndUser> repository)
+        public MapsController(IRepository<LocAndUser> repository)
         {
             _repository = repository;
         }
@@ -24,9 +26,9 @@ namespace BasarSoftProject1_API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateMap(LocationAndUser locationAndUser)
+        public async Task<IActionResult> CreateMap(LocAndUser locAndUser)
         {
-            await _repository.CreateAsync(locationAndUser);
+            await _repository.CreateAsync(locAndUser);
             return Ok();
         }
 
