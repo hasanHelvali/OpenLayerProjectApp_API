@@ -5,11 +5,6 @@ namespace BasarSoftProject1_API.DTOs
 {
     public class LocationAndUser
     {
-        //public int? ID { get; set; }
-        //public string Name { get; set; }
-        //public string Type { get; set; }
-        //public List<string> Coordinates { get; set; }
-
         public int? ID { get; set; }
         public string ?Name { get; set; }
         public string ?Type { get; set; }

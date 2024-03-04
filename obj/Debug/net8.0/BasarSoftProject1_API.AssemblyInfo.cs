@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasarSoftProject1_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aca150aaa51e6b9117b5aae69ba52ebb7db886ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+621dc51f37f32c0952225074fb122109c0390dab")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasarSoftProject1_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasarSoftProject1_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
